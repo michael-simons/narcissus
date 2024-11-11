@@ -13,7 +13,7 @@ import org.junit.Test;
 
 public class NarcissusTest {
     @Before
-    public void testInitialized() throws Exception {
+    public void testInitialized() {
         if (!Narcissus.libraryLoaded) {
             throw new RuntimeException("Narcissus library not loaded");
         }
